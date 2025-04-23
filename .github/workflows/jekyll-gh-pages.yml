@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casamento Douglas & Maryna</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f7f7f7;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2a4d31;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 48px;
+        }
+
+        header h2 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        section {
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .countdown {
+            text-align: center;
+            font-size: 30px;
+            margin-top: 20px;
+        }
+
+        .list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .list li {
+            background-color: #e1e1e1;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        footer {
+            background-color: #2a4d31;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        .map {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        iframe {
+            width: 100%;
+            height: 350px;
+            border: none;
+        }
+
+        .form-container {
+            text-align: center;
+        }
+
+        .playlist {
+            display: none;
+        }
+
+        .container {
+            padding-top: 10px;
+        }
+
+        /* Estilos para a playlist */
+        .music {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: #2a4d31;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .music iframe {
+            width: 100%;
+            height: 60px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Douglas & Maryna</h1>
+    <h2>Nosso casamento</h2>
+    <p>Dia 04 de Outubro de 2025</p>
+</header>
+
+<section>
+    <h2>Nossa História</h2>
+    <p>Está chegando o momento de compartilharmos esse momento importante da nossa história com as pessoas mais especiais da nossa vida. Estamos muito felizes, agradecidos e muito ansiosos para compartilhar dessa felicidade com todos vocês.</p>
+    <p>Juntos desde 2022, quem nos conhece sabe como foi essa história repleta de surpresas, coincidências e muito amor desde sempre. Essa trajetória nos trouxe até esse momento e queremos que seja apenas o início de uma vida inteira juntos. Sejam muito bem-vindos!</p>
+</section>
+
+<section class="countdown">
+    <h3>Contagem Regressiva</h3>
+    <p>Faltam <span id="countdown">[contador dinâmico]</span> dias para o grande dia!</p>
+</section>
+
+<section>
+    <h2>Dress Code</h2>
+    <p>Esporte fino – Ocasião noturna e formal</p>
+    <p>Caprichem no visual! Vamos brindar com estilo ✨</p>
+</section>
+
+<section>
+    <h2>Como Chegar</h2>
+    <div class="map">
+        <iframe src="https://www.google.com/maps?q=Cais+do+Oriente,+Rua+Visconde+de+Itaboraí,+8,+Rio+de+Janeiro&output=embed"></iframe>
+    </div>
+</section>
+
+<section>
+    <h2>Confirmação de Presença (RSVP)</h2>
+    <div class="form-container">
+        <p>Confirme sua presença até 15 de setembro de 2025!</p>
+        <p><a href="https://forms.gle/ExemploFormulario">Clique aqui para confirmar sua presença</a></p>
+    </div>
+</section>
+
+<section>
+    <h2>Deixe um Recado</h2>
+    <div class="form-container">
+        <p>Deixe uma mensagem especial para nós!</p>
+        <p><a href="https://forms.gle/ExemploFormulario">Clique aqui para deixar sua mensagem</a></p>
+    </div>
+</section>
+
+<section>
+    <h2>Lista de Presentes</h2>
+    <p>Quem disse que a gente não pode misturar o útil ao engraçado?</p>
+    <ul class="list">
+        <li>"Nossos copos de vinho personalizados" — Porque todo casal precisa de copos para brindar os pequenos momentos!</li>
+        <li>"Aquela cafeteira chique" — Para começar o dia com um café cheio de amor.</li>
+        <li>"Kit de viagem do casal" — Como bons viajantes, sempre precisamos de uma nova mala para nossas aventuras!</li>
+        <li>"Cadeiras para jantar à luz de velas" — Para que as noites românticas sejam ainda mais confortáveis!</li>
+        <li>"Pijama de casal" — Porque um bom descanso também faz parte de uma vida a dois!</li>
+        <li>"Porta-retratos para nossas fotos favoritas" — Afinal, nada como recordações para relembrar nossos momentos mais felizes!</li>
+        <li>"Uma planta que sobrevive até com a nossa ausência" — Para manter nossa casa mais viva e alegre!</li>
+        <li>"Almofadas divertidas" — Porque um lar confortável e engraçado é sempre mais acolhedor.</li>
+        <li>"Jogo de panelas novo" — Para que as nossas aventuras na cozinha sejam ainda mais deliciosas!</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Aventura e Romance</h2>
+    <p>A paixão por viajar é uma parte essencial da nossa história. Como o pedido de casamento aconteceu na Torre Eiffel, ela se torna um símbolo de amor e aventura em nosso site.</p>
+    <img src="https://example.com/torre-eiffel.jpg" alt="Torre Eiffel" width="100%" />
+</section>
+
+<section class="music">
+    <iframe src="https://open.spotify.com/embed/playlist/37i9dQZF1DX4o1fdQZVLeS" width="100%" height="60" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+</section>
+
+<footer>
+    <p>Nosso casamento, nosso amor, nossa vida juntos. Estamos muito felizes em compartilhar esse momento com você!</p>
+</footer>
+
+<script>
+// Exemplo de contador de tempo
+const countDownDate = new Date("Oct 4, 2025 00:00:00").getTime();
+let x = setInterval(function() {
+    let now = new Date().getTime();
+    let distance = countDownDate - now;
+    let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    document.getElementById("countdown").innerHTML = days;
+}, 1000);
+</script>
+
+</body>
+</html>
